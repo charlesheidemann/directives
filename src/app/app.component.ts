@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { HighlightDirective } from './highlight.directive';
 
 @Component({
   selector: 'dir-root',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'dir works!';
+
 }
